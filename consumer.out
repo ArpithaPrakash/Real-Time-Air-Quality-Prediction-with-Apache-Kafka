@@ -1,0 +1,26 @@
+/Users/arpithaprakash/Project/phase_1_streaming_infrastructure/preprocess_data.py:36: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  idx = pd.date_range(end=pd.Timestamp.now(), periods=200, freq='H')
+/Users/arpithaprakash/Project/phase_1_streaming_infrastructure/preprocess_data.py:96: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  data = data.resample('H').mean()
+Using bootstrap servers: localhost:29092
+Prometheus metrics available on :8000/
+Processing Data: {'timestamp': '2025-09-14T22:00:00', 'CO': 0.5, 'Benzene': 0.9848048030949148, 'NOx': 5.0, 'NO2': 0.7620968875354637, 'NMHC': 0.31768458584201487, 'Target': nan}
+Processing Data: {'timestamp': '2025-09-14T23:00:00', 'CO': 0.8641869658836762, 'Benzene': 0.5013076393910171, 'NOx': 5.0, 'NO2': 0.9043463537368364, 'NMHC': 0.895718654889836, 'Target': nan}
+Processing Data: {'CO': 0.5, 'Benzene': 0.5672088232414543, 'NOx': 5.0, 'NO2': 0.2418519274329979, 'NMHC': 0.24467519226622228, 'Target': nan, 'timestamp': '2025-09-23T04:43:55.347725'}
+Processing Data: {'CO': 0.8374481201559447, 'Benzene': 0.6093559985475524, 'NOx': 5.0, 'NO2': 0.6222138319399823, 'NMHC': 0.09259097924327261, 'Target': nan, 'timestamp': '2025-09-23T04:43:55.856225'}
+Processing Data: {'CO': 0.8803939765081863, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.16466465942842792, 'NMHC': 0.0, 'Target': nan, 'timestamp': '2025-09-23T04:43:56.363327'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.5369153331444348, 'NOx': 5.0, 'NO2': 0.9609338896626876, 'NMHC': 0.5449274303485647, 'Target': nan, 'timestamp': '2025-09-23T04:43:56.869031'}
+Processing Data: {'CO': 0.720323191078082, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.5616546793143448, 'NMHC': 0.6560759268317847, 'Target': nan, 'timestamp': '2025-09-23T04:43:57.374867'}
+Processing Data: {'CO': 0.9764478440623628, 'Benzene': 0.5151445322050253, 'NOx': 5.0, 'NO2': 0.8752604320641423, 'NMHC': 0.4835052371247551, 'Target': nan, 'timestamp': '2025-09-23T04:43:57.883283'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.6571545620697109, 'NOx': 5.0, 'NO2': 0.039945482759582936, 'NMHC': 0.2532104728649926, 'Target': nan, 'timestamp': '2025-09-23T04:43:58.390330'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.8386551639277446, 'NOx': 5.0, 'NO2': 0.740040880153016, 'NMHC': 0.010252767910650877, 'Target': nan, 'timestamp': '2025-09-23T04:43:58.898652'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.0035170868645613977, 'NMHC': 0.322103916219616, 'Target': nan, 'timestamp': '2025-09-23T04:43:59.405975'}
+Processing Data: {'CO': 0.7831250996050698, 'Benzene': 0.8675402051320814, 'NOx': 5.0, 'NO2': 0.282717750986946, 'NMHC': 0.9656568117050102, 'Target': nan, 'timestamp': '2025-09-23T04:43:59.910950'}
+Processing Data: {'CO': 0.9599232119867457, 'Benzene': 0.9094094393856496, 'NOx': 5.0, 'NO2': 0.6204609811336227, 'NMHC': 0.20726145499851023, 'Target': nan, 'timestamp': '2025-09-23T04:44:00.419004'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.6999276922057, 'NOx': 5.0, 'NO2': 0.553248157657777, 'NMHC': 0.0017141571817826443, 'Target': nan, 'timestamp': '2025-09-23T04:44:00.923705'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.8154355643700879, 'NMHC': 0.9074458960902335, 'Target': nan, 'timestamp': '2025-09-23T04:44:01.431604'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.10966944824705888, 'NMHC': 0.5570883016095806, 'Target': nan, 'timestamp': '2025-09-23T04:44:01.941250'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.8129269931594326, 'NOx': 5.0, 'NO2': 0.10831890937298194, 'NMHC': 0.5697224980693723, 'Target': nan, 'timestamp': '2025-09-23T04:44:02.448974'}
+Processing Data: {'CO': 0.5, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.4138233240809166, 'NMHC': 0.7552822424858763, 'Target': nan, 'timestamp': '2025-09-23T04:44:02.958633'}
+Processing Data: {'CO': 0.5154192967913314, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.5693966103578668, 'NMHC': 0.027996098975120585, 'Target': nan, 'timestamp': '2025-09-23T04:44:03.466482'}
+Processing Data: {'CO': 0.7034451578039427, 'Benzene': 0.5, 'NOx': 5.0, 'NO2': 0.047849778543512675, 'NMHC': 0.5225934229427062, 'Target': nan, 'timestamp': '2025-09-23T04:44:03.972338'}

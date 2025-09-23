@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 1.0
+  },
+  "cv_mae": 0.591281016402602,
+  "holdout_mae": 0.659130237937747,
+  "holdout_rmse": 0.8986071852443589,
+  "baseline_mae": 0.5421882900412286,
+  "baseline_rmse": 0.8391926184406723,
+  "n_train": 7446,
+  "n_holdout": 1862
+}

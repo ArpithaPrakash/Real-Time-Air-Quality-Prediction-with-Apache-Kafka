@@ -1,0 +1,7 @@
+/Users/arpithaprakash/Project/phase_1_streaming_infrastructure/preprocess_data.py:36: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  idx = pd.date_range(end=pd.Timestamp.now(), periods=200, freq='H')
+/Users/arpithaprakash/Project/phase_1_streaming_infrastructure/preprocess_data.py:96: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  data = data.resample('H').mean()
+Using bootstrap servers: localhost:29092
+Prometheus metrics available on :8000/
+Processing Data: {'timestamp': '2025-09-14T21:00:00', 'CO': 0.7782572917921659, 'Benzene': 0.7852606902250504, 'NOx': 5.0, 'NO2': 0.47746154351355685, 'NMHC': 0.7429134639268647, 'Target': nan}

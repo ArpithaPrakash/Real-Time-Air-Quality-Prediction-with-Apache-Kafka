@@ -1,0 +1,4 @@
+/Users/arpithaprakash/Project/phase_1_streaming_infrastructure/preprocess_data.py:36: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  idx = pd.date_range(end=pd.Timestamp.now(), periods=200, freq='H')
+/Users/arpithaprakash/Project/phase_1_streaming_infrastructure/preprocess_data.py:96: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  data = data.resample('H').mean()

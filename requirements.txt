@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+xgboost
+statsmodels
+tensorflow
+matplotlib
+ucimlrepo
+confluent-kafka
+
+# Pin protobuf to a Streamlit-compatible version (Streamlit 1.37.1 requires protobuf<6,>=3.20)
+protobuf==3.20.3
+
+prometheus_client
+pyarrow
