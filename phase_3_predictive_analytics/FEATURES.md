@@ -58,6 +58,3 @@ Next steps (optional hardening)
 
 - Persist the exact `feature_columns` and per-feature training mean/std to disk when saving a trained model so inference can load the schema and compute drift deterministically (`feature_schema_{target}_h{h}.json`).
 - Update the inference script to validate incoming message payloads against the saved schema and fail-fast on missing features. This is recommended but optional if you plan to use the current dry-run/drift approach.
-
-If you'd like, I can implement the schema persistence and inference mapping in a follow-up change (small patch, quick dry-run verification).
-If you want, I can now implement the advanced engineered features and re-run a larger hyperparameter search.

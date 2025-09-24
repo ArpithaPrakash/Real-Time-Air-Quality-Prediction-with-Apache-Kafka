@@ -89,5 +89,3 @@ Scrape config example for Prometheus (add to `scrape_configs`):
 - Add a small wrapper to convert raw Kafka messages (raw sensor stream) into the exact feature set required by the model so inference only accepts validated payloads.
 
 ---
-
-If you'd like, I can also add a sample Dockerfile and a `docker-compose` service for the inference worker in a follow-up change.
